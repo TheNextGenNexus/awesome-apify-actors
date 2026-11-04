@@ -4,7 +4,7 @@
 
 [Apify](https://apify.com/?fpr=2ayu9b) is a serverless platform for running web scrapers and automation "actors." This list catalogs the actors actually worth knowing about — across SEO, social media, e-commerce, real estate, lead generation, finance, MCP servers, and dozens of niches.
 
-Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 495 public data tools in the NexGenData store on Apify. PRs welcome.
+Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470 public data tools in the NexGenData store on Apify. PRs welcome.
 
 [Why this list exists](#why-this-list-exists) · [How to publish your own actor](#how-to-publish-your-own-actor) · [Contributing](#contributing) · [Full NexGenData catalog](CATALOG.md)
 
@@ -38,7 +38,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 495
 - [Maps & Local](#maps-local) (12)
 - [Travel](#travel) (12)
 - [Jobs & Recruiting](#jobs-recruiting) (15)
-- [Finance & Market Data](#finance-market-data) (24)
+- [Finance & Market Data](#finance-market-data) (22)
 - [News & Content](#news-content) (14)
 - [Developer Tools](#developer-tools) (22)
 - [App Stores & Reviews](#app-stores-reviews) (11)
@@ -486,11 +486,9 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 495
 - [Stock Market Scraper — Yahoo Finance Quotes per Ticker](https://apify.com/nexgendata/stock-market-scraper?fpr=2ayu9b) — Scrape real-time stock prices, market trends, company financials, analyst recommendations, and historical data. `@nexgendata`
 - [China A-Share Screener — 中国股票 Eastmoney API](https://apify.com/nexgendata/eastmoney-china-stock-screener?fpr=2ayu9b) — Screen Chinese A-share stocks (Shanghai + Shenzhen + ChiNext + STAR Market) via Eastmoney's public quote. `@nexgendata`
 - [SEC Form 13F Tracker Pro — Institutional Holdings API](https://apify.com/nexgendata/sec-form-13f-tracker-pro?fpr=2ayu9b) — Track every SEC Form 13F-HR holding — filer + CIK, period, issuer, CUSIP, value (USD), shares. `@nexgendata`
-- [SEC Full-Text Search — Filings That Mention a Keyword](https://apify.com/nexgendata/sec-edgar-search?fpr=2ayu9b) — Search SEC EDGAR for 10-K, 10-Q, 8-K filings, proxy statements, and insider transactions. `@nexgendata`
 - [SEC Form D Scraper — Startup Funding Filings API](https://apify.com/nexgendata/sec-form-d-scraper?fpr=2ayu9b) — Track private placement filings via SEC EDGAR Form D — entity name, CIK, total raised. `@nexgendata`
 - [SEC Form 4 Bulk Export — Raw Filings by Date, Derivatives Too](https://apify.com/nexgendata/sec-form-4-insider-trading-scraper?fpr=2ayu9b) — Track SEC Form 4 insider trades — issuer ticker, reporting person, role (officer/director/10%+), transaction date. `@nexgendata`
 - [SEC 8-K Feed by Item Number — Material Events by Ticker & Date](https://apify.com/nexgendata/sec-form-8k-material-events-scraper?fpr=2ayu9b) — Track every material event filed on SEC Form 8-K — M&A (1.01/2.01), funding rounds (8.01/3.02). `@nexgendata`
-- [SEC Schedule 13D/G Tracker — Activist Stakes API](https://apify.com/nexgendata/sec-schedule-13dg-activist-tracker?fpr=2ayu9b) — Track SEC Schedule 13D + 13G filings — activist position (>5% with intent) vs passive >5%. `@nexgendata`
 - [KOSPI Korea Stock Screener — 한국 주식 Data API](https://apify.com/nexgendata/kospi-stock-screener?fpr=2ayu9b) — KOSPI + KOSDAQ stock screener API — Korean equity live quotes, market cap (KRW), P/E, P/B. `@nexgendata`
 - [SEC Form N-PX Tracker — Mutual Fund Proxy Votes](https://apify.com/nexgendata/sec-form-npx-mutual-fund-proxy-votes?fpr=2ayu9b) — Pull mutual fund / ETF proxy vote records straight from SEC EDGAR Form N-PX annual disclosures. *Free* `@nexgendata`
 - [Company Filing History — 10-K, 10-Q & 8-K by Ticker or Name](https://apify.com/nexgendata/sec-edgar-filings-scraper?fpr=2ayu9b) — Extract SEC EDGAR filings — 10-K, 10-Q, 8-K reports, insider transactions. `@nexgendata`
