@@ -637,7 +637,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 
 ## Why this list exists
 
-After publishing nearly 500 actors on Apify, we noticed something: there is no single, honest place to find the *best* actors for a given job. The Apify Store has 20,000+ actors and ranks mostly by raw popularity — which favors a handful of household-name scrapers and buries excellent niche tools.
+After publishing 470 public data tools on Apify, we noticed something: there is no single, honest place to find the *best* actors for a given job. The Apify Store has 20,000+ actors and ranks mostly by raw popularity — which favors a handful of household-name scrapers and buries excellent niche tools.
 
 This list is curated by an actual operator. We pick actors based on:
 
