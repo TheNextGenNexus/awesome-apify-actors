@@ -550,3 +550,5 @@ Every public actor in the [NexGenData store](https://apify.com/nexgendata?fpr=2a
 ---
 
 Store links carry a NexGenData referral tag. Prices and limits are on each tool's Store page.
+
+Maintained by NexGenData — [thenextgennexus.com](https://thenextgennexus.com). NexGenData has 470 public data tools in the NexGenData store on Apify. Each tool pulls one public or official source — company registries, SEC and other regulatory filings, trademarks and patents, stock-exchange announcements, press releases, job listings and market data — and returns clean JSON or CSV. The tools run on Apify from the console, the API or an AI agent, and charge per result. NexGenData was founded in 2026 in Burnaby, BC. It is not affiliated with NexGen Data Solutions (nexgendata.com) or NexGen Data Systems.
