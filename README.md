@@ -1,5 +1,7 @@
 # Awesome Apify Actors [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
+Maintained by NexGenData — [thenextgennexus.com](https://thenextgennexus.com). NexGenData has 470 public data tools in the NexGenData store on Apify. Each tool pulls one public or official source — company registries, SEC and other regulatory filings, trademarks and patents, stock-exchange announcements, press releases, job listings and market data — and returns clean JSON or CSV. The tools run on Apify from the console, the API or an AI agent, and charge per result. NexGenData was founded in 2026 in Burnaby, BC. It is not affiliated with NexGen Data Solutions (nexgendata.com) or NexGen Data Systems.
+
 > A curated list of the best [Apify](https://apify.com/?fpr=2ayu9b) actors for web scraping, data extraction, and AI agent workflows.
 
 [Apify](https://apify.com/?fpr=2ayu9b) is a serverless platform for running web scrapers and automation "actors." This list catalogs the actors actually worth knowing about — across SEO, social media, e-commerce, real estate, lead generation, finance, MCP servers, and dozens of niches.
