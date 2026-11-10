@@ -12,8 +12,8 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 
 ## Contents
 
-- [MCP Servers](#mcp-servers) (52)
-- [Search Engines & SEO](#search-engines-seo) (19)
+- [MCP Servers](#mcp-servers) (54)
+- [Search Engines & SEO](#search-engines-seo) (26)
 - [Web Scraping & Crawling](#web-scraping-crawling) (13)
 - [AI & Agents](#ai-agents) (13)
 - [Twitter / X](#twitter-x) (7)
@@ -25,7 +25,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Facebook](#facebook) (8)
 - [Threads & Bluesky](#threads-bluesky) (4)
 - [Pinterest & Snapchat](#pinterest-snapchat) (4)
-- [Social Media (General)](#social-media-general) (11)
+- [Social Media (General)](#social-media-general) (15)
 - [Video Platforms](#video-platforms) (8)
 - [Amazon](#amazon) (12)
 - [Shopify](#shopify) (10)
@@ -35,19 +35,19 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Etsy](#etsy) (3)
 - [Best Buy & Costco](#best-buy-costco) (2)
 - [E-commerce (General)](#e-commerce-general) (12)
-- [Real Estate](#real-estate) (19)
-- [Lead Generation](#lead-generation) (35)
+- [Real Estate](#real-estate) (21)
+- [Lead Generation](#lead-generation) (42)
 - [Maps & Local](#maps-local) (12)
 - [Travel](#travel) (12)
-- [Jobs & Recruiting](#jobs-recruiting) (15)
-- [Finance & Market Data](#finance-market-data) (22)
-- [News & Content](#news-content) (14)
+- [Jobs & Recruiting](#jobs-recruiting) (17)
+- [Finance & Market Data](#finance-market-data) (94)
+- [News & Content](#news-content) (20)
 - [Developer Tools](#developer-tools) (22)
-- [App Stores & Reviews](#app-stores-reviews) (11)
-- [Government & Public Data](#government-public-data) (10)
+- [App Stores & Reviews](#app-stores-reviews) (14)
+- [Government & Public Data](#government-public-data) (46)
 - [Marketing & Ads](#marketing-ads) (10)
 - [Productivity & AI](#productivity-ai) (10)
-- [Business & Government Data](#business-government-data) (10)
+- [Business & Government Data](#business-government-data) (40)
 - [Automation & Workflows](#automation-workflows) (6)
 - [Specialized / Niche](#specialized-niche) (12)
 - [Why this list exists](#why-this-list-exists)
@@ -113,6 +113,8 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Google Jobs Scraper](https://apify.com/khadinakbar/google-jobs-scraper?fpr=2ayu9b) — Extract job listings from Google Jobs. `@khadinakbar`
 - [YouTube Comments Scraper](https://apify.com/dz_omar/youtube-comments-scraper?fpr=2ayu9b) — Extract YouTube comments with author info, likes, timestamps, and nested replies. *Pay per event* `@dz_omar`
 - [Instagram Reels Scraper](https://apify.com/khadinakbar/instagram-reels-scraper?fpr=2ayu9b) — Scrape Instagram Reels from profiles, hashtags, or URLs. `@khadinakbar`
+- [Gov Contracts MCP — Federal Awards & Spending for AI Agents](https://apify.com/nexgendata/government-contracts-procurement-mcp-server?fpr=2ayu9b) — MCP server exposing federal contract awards and spending data as agent tools. `@nexgendata`
+- [Patent Search MCP — Prior Art & Inventor Tools for AI Agents](https://apify.com/nexgendata/patents-trademarks-ip-mcp-server?fpr=2ayu9b) — MCP server exposing patent search, inventor search, patents-by-assignee and full patent detail as agent tools (patents only — no trademark tools). `@nexgendata`
 
 ## Search Engines & SEO
 
@@ -135,6 +137,13 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Search Threads By Keywords](https://apify.com/watcher.data/search-threads-by-keywords?fpr=2ayu9b) — Fast and reliable scraper for searching posts on Threads by Meta. `@watcher.data`
 - [Bulk Image Downloader](https://apify.com/onescales/bulk-image-downloader?fpr=2ayu9b) — The Bulk Image Downloader is a powerful Apify actor that extracts and downloads images from web. `@onescales`
 - [Search X By Keywords](https://apify.com/watcher.data/search-x-by-keywords?fpr=2ayu9b) — Fast and reliable scraper for searching tweets and users on X (Twitter). `@watcher.data`
+- [CISA KEV + EPSS Vulnerability Intelligence Tracker](https://apify.com/nexgendata/cisa-kev-vulnerability-intelligence?fpr=2ayu9b) — Track CISA Known Exploited Vulnerabilities (KEV) with EPSS scores — CVE, vendor, product, date added, due date and required action — as clean JSON for security `@nexgendata`
+- [CVE Vulnerability Monitor — NVD, CISA KEV & EPSS](https://apify.com/nexgendata/cve-vulnerability-monitor?fpr=2ayu9b) — Monitor new/updated CVEs by vendor or product, enriched with CISA KEV exploited-flag and EPSS exploit probability. `@nexgendata`
+- [Dependency Advisory Monitor — OSV & GitHub Security](https://apify.com/nexgendata/dependency-advisory-monitor?fpr=2ayu9b) — Scan npm, PyPI, Maven, Go & more dependencies for known vulnerabilities via OSV.dev and the GitHub Advisory Database. `@nexgendata`
+- [Landing Page Change Monitor — Track Competitor Pages](https://apify.com/nexgendata/landing-page-change-monitor?fpr=2ayu9b) — Monitor competitor landing & pricing pages for content changes — scheduled diffs with added/removed lines. `@nexgendata`
+- [Google Ads Library Scraper — Competitor Ads Transparency](https://apify.com/nexgendata/google-ads-transparency-intelligence?fpr=2ayu9b) — Google ads library scraper for the Google Ads Transparency Center: every creative a competitor, brand or domain runs across Search, Display and YouTube — format `@nexgendata`
+- [Domain Security Posture Checker — DNS, SPF, DMARC, TLS](https://apify.com/nexgendata/domain-security-posture-checker?fpr=2ayu9b) — One-call security report card per domain — WHOIS, DNS, SPF/DMARC email auth, SSL/TLS expiry, with a posture score and grade. `@nexgendata`
+- [Website Rank Lookup — Majestic Million](https://apify.com/nexgendata/website-rank-lookup-majestic-million?fpr=2ayu9b) — Look up any domain's rank in the Majestic Million, the free daily top-1M list ranked by how many sites link to it. `@nexgendata`
 
 ## Web Scraping & Crawling
 
@@ -284,6 +293,10 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Telegram Media Downloader](https://apify.com/easyapi/telegram-media-downloader?fpr=2ayu9b) — A powerful Telegram media downloader that extracts videos, photos, and other media content from Telegram posts. `@easyapi`
 - [Telegram Profile](https://apify.com/truefetch/telegram-profile?fpr=2ayu9b) — Bulk-look up Telegram users, bots, channels, or groups — Premium status, verification badge, member count. `@truefetch`
 - [Telegram Channel Content & Media Scraper](https://apify.com/webfinity/telegram-channel-content-media-scraper-v2?fpr=2ayu9b) — Extract Telegram posts with media — text, views, reactions, media links, channel name, bio, subscribers. `@webfinity`
+- [China Social Sentiment Aggregate](https://apify.com/nexgendata/china-social-sentiment-aggregate?fpr=2ayu9b) — One keyword → a normalized, deduped, sentiment-tagged feed across Chinese social platforms (Bilibili + RedNote + Weibo). `@nexgendata`
+- [Niconico Video Search — ニコニコ動画 API](https://apify.com/nexgendata/niconico-video-search?fpr=2ayu9b) — Search Japan Niconico (nicovideo) videos. `@nexgendata`
+- [Yahoo! Japan Realtime Trends + Buzz Tracker](https://apify.com/nexgendata/yahoo-japan-realtime-trends?fpr=2ayu9b) — Track Yahoo! `@nexgendata`
+- [Kuaishou Trending Tracker — 快手热榜 Hot Board API](https://apify.com/nexgendata/kuaishou-trending-tracker?fpr=2ayu9b) — Track the Kuaishou hot board (快手热榜) — China's #2 short-video platform, where lower-tier-city consumer culture surfaces first. ~48 trending topics with rank, hot value, view count, category, hashtags & best-effort English. China short-video trend API for brand & consumer research. No login. `@nexgendata`
 
 ## Video Platforms
 
@@ -393,6 +406,8 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Zillow Scrape: Address/URL/ZPID](https://apify.com/one-api/zillow-scrape-address-url-zpid?fpr=2ayu9b) — Get Zestimates from the property address/zpid/url. `@one-api`
 - [Zillow Property & Agent Data Scraper](https://apify.com/afanasenko/zillow-property-agent-data-scraper?fpr=2ayu9b) — Extract Zillow property listings with agent contacts (emails, phones), price history, and 70+ data fields. *Pay per event* `@afanasenko`
 - [Immobilienscout24 (.de|.ch|.at) Only$1.75 Search-Detail-Agent](https://apify.com/memo23/immobilienscout24-scraper?fpr=2ayu9b) — $1.75 per 1,000. `@memo23`
+- [HK Centaline Property Index — 中原指數 API](https://apify.com/nexgendata/hk-centaline-property-index?fpr=2ayu9b) — Track the Hong Kong Centaline property price index (CCL). `@nexgendata`
+- [Singapore URA Commercial Property Caveats API](https://apify.com/nexgendata/singapore-ura-commercial-property?fpr=2ayu9b) — Singapore URA commercial-property caveats with your free URA access key. `@nexgendata`
 
 ## Lead Generation
 
@@ -431,6 +446,13 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Website Email & Phone Finder](https://apify.com/caprolok/website-email-phone-finder?fpr=2ayu9b) — Accelerate your outreach by using our Contact Details Scraper to quickly gather emails from any domain. `@caprolok`
 - [Y Combinator Scraper](https://apify.com/michael.g/y-combinator-scraper?fpr=2ayu9b) — Extract startup leads, founder emails, LinkedIn profiles, hiring data, and more from YC companies and founders. `@michael.g`
 - [Free Email Domain Scraper - Extract Emails From Any Website](https://apify.com/s-r/free-email-domain-scraper?fpr=2ayu9b) — Extract Emails From Any Website. `@s-r`
+- [B2B Lead List Cleaner — Dedupe, Normalize & MX-Verify API](https://apify.com/nexgendata/b2b-lead-list-cleaner?fpr=2ayu9b) — Clean messy B2B lead lists: normalize emails, flag role/disposable addresses, verify MX, dedupe by email or domain. `@nexgendata`
+- [Website Tech & Contact Audit — Tech Stack + Emails API](https://apify.com/nexgendata/local-business-tech-contact-audit?fpr=2ayu9b) — Audit any website in one call: detect the tech stack (CMS, frameworks, analytics, hosting) and extract contact info (emails, phones, social profiles). `@nexgendata`
+- [Building Permit Leads — New Construction Project Prospects API](https://apify.com/nexgendata/building-permits-construction-leads?fpr=2ayu9b) — New construction-project leads from building permits across NYC, Chicago, Austin, Seattle & SF — project, address, type, value, owner/contractor. `@nexgendata`
+- [FDIC Bank Leads — US Bank Directory & Contacts API](https://apify.com/nexgendata/fdic-bank-leads?fpr=2ayu9b) — US bank-directory leads from FDIC data — institution name, location, assets, branches and contacts. `@nexgendata`
+- [Local Business Leads — Google Maps + Verified Emails API](https://apify.com/nexgendata/local-business-leads-scraper?fpr=2ayu9b) — Local business leads from Google Maps by industry & city: company, address, phone, website + a verified business email in one call. `@nexgendata`
+- [NPI Healthcare Provider Leads — Doctors & Practices API](https://apify.com/nexgendata/npi-healthcare-provider-leads?fpr=2ayu9b) — US healthcare-provider leads from the NPI registry — doctors, clinics and specialists with name, NPI, specialty, address and phone. `@nexgendata`
+- [Person Enrichment API — Name & Company to Public Profile](https://apify.com/nexgendata/person-enrichment-lookup?fpr=2ayu9b) — Match a name + company to a public-web profile from the company's own site, plus firmographics. `@nexgendata`
 
 ## Maps & Local
 
@@ -479,6 +501,8 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Naukri Job Scraper](https://apify.com/automation-lab/naukri-scraper?fpr=2ayu9b) — Scrape job listings from Naukri.com, India's largest job board. *Pay per event* `@automation-lab`
 - [All Jobs Scraper](https://apify.com/agentx/all-jobs-scraper?fpr=2ayu9b) — Unified Jobs API across LinkedIn, Indeed, and Glassdoor — auto-extends to Naukri, Bayt. `@agentx`
 - [Google Jobs Scraper](https://apify.com/johnvc/Google-Jobs-Scraper?fpr=2ayu9b) — The most advanced Google Jobs Scraper available!. *Pay per event* `@johnvc`
+- [Workday Careers Scraper — myworkdayjobs Job Listings, No Login](https://apify.com/nexgendata/workday-jobs-scraper?fpr=2ayu9b) — Workday careers scraper: open roles from any company's Workday careers site (myworkdayjobs.com) — title, location, posted date, apply URL. `@nexgendata`
+- [ATS Job Postings — Greenhouse, Lever, Ashby & Workday Jobs](https://apify.com/nexgendata/ats-job-aggregator?fpr=2ayu9b) — ATS job postings in one schema: pull open jobs straight from employer ATS platforms — Greenhouse, Lever jobs, Ashby and Workday — into one normalized format. `@nexgendata`
 
 ## Finance & Market Data
 
@@ -504,6 +528,78 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Coingecko](https://apify.com/real1ty/coingecko?fpr=2ayu9b) — This Actor scrapes cryptocurrency data from CoinGecko, a popular cryptocurrency tracking website. *Pay per event* `@real1ty`
 - [Tradingview Screener](https://apify.com/viralanalyzer/tradingview-screener?fpr=2ayu9b) — Extract TradingView screener data: stock signals, technical indicators, moving averages, and oscillators for any market. *Pay per event* `@viralanalyzer`
 - [SEC Edgar Filings Scraper](https://apify.com/constant_quadruped/sec-edgar-filings-scraper?fpr=2ayu9b) — Extract SEC EDGAR filings data: 10-K, 10-Q, 8-K, Form 4, and more. *Free* `@constant_quadruped`
+- [Sovereign Wealth Fund Directory — Profiles & AUM (Curated)](https://apify.com/nexgendata/sovereign-wealth-fund-tracker?fpr=2ayu9b) — Curated, dated profiles of the 30 largest sovereign wealth funds — AUM, year-over-year change, asset allocation, governance type, transparency score, notable ho `@nexgendata`
+- [Pre-IPO Company Directory — Valuations & Price Estimates](https://apify.com/nexgendata/pre-ipo-secondary-prices?fpr=2ayu9b) — Dated directory of late-stage private companies: last valuation, round, lead investor, funding total, and curated secondary price-per-share ESTIMATES from publi `@nexgendata`
+- [SEC Conflict Minerals Tracker — Form SD Filings](https://apify.com/nexgendata/sec-conflict-minerals-tracker?fpr=2ayu9b) — Track conflict-minerals (Form SD) disclosures from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Dividend Aristocrats Tracker — 25+ Year Raisers API](https://apify.com/nexgendata/dividend-aristocrats-tracker?fpr=2ayu9b) — Track dividend-aristocrat stocks from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [FX Rates Tracker — G10 + EM Currency Pairs Spot Data](https://apify.com/nexgendata/fx-rates-tracker?fpr=2ayu9b) — Track 40+ currency pairs: G10 majors (EUR/USD, USD/JPY, GBP/USD) plus EM Asia, EM LatAm, EMEA. Daily spot rates, change windows, 52-week ranges. ECB-backed data for FX desks, treasury teams, fintech apps, remittance platforms. Bloomberg FX alternative — pay-per-result. `@nexgendata`
+- [Fund Portfolio & Security Ownership Lookup — SEC N-PORT API](https://apify.com/nexgendata/sec-form-nport-mutual-fund-holdings?fpr=2ayu9b) — WHICH FUNDS HOLD A GIVEN STOCK? `@nexgendata`
+- [France AMF Insider Trades — Déclarations Dirigeants Tracker](https://apify.com/nexgendata/france-amf-insider-trades?fpr=2ayu9b) — Pull French executive insider trades from AMF (Autorité des Marchés Financiers) BDIF register of Déclarations dirigeants. `@nexgendata`
+- [UK LSE IPO Calendar — London Listings Tracker](https://apify.com/nexgendata/uk-lse-ipo-calendar?fpr=2ayu9b) — Track upcoming and recent London Stock Exchange IPOs — Main Market, AIM and HGSM listings with offer prices, sponsor/nomad, sector, raise amount and admission d `@nexgendata`
+- [BMV Mexico Stock Screener — S&P/BMV IPC Data API](https://apify.com/nexgendata/bmv-mexico-stock-screener?fpr=2ayu9b) — Screen S&P/BMV IPC stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [JSE South Africa Stock Screener — Top 40 Data API](https://apify.com/nexgendata/jse-southafrica-stock-screener?fpr=2ayu9b) — Screen JSE Top 40 stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [ASX Australia Stock Screener — ASX 200 Data API](https://apify.com/nexgendata/asx-australia-stock-screener?fpr=2ayu9b) — Screen ASX 200 / 300 stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [STAR Market China Screener — 科创板 A股 API](https://apify.com/nexgendata/star-market-china-stock-screener?fpr=2ayu9b) — Screen STAR 50 stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. China fundamentals for analysts and AI agents. `@nexgendata`
+- [Beijing BSE Stock Screener — 北交所 A股 API](https://apify.com/nexgendata/bse-beijing-stock-screener?fpr=2ayu9b) — Screen BSE 50 (Beijing) stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [TSX Canada Stock Screener — S&P/TSX Market Data API](https://apify.com/nexgendata/tsx-canada-stock-screener?fpr=2ayu9b) — Screen S&P/TSX 60 & Composite stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [SEC Activist Proxy Tracker — DFAN14A Solicitations](https://apify.com/nexgendata/sec-activist-proxy-solicitation-tracker?fpr=2ayu9b) — Track activist proxy solicitations (DFAN14A) from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Singapore Rental Market Tracker — URA Rents API](https://apify.com/nexgendata/singapore-rental-market-tracker?fpr=2ayu9b) — Track Singapore URA rental contracts and monthly rents. `@nexgendata`
+- [SEC XBRL Financial Frames — Structured Fundamentals](https://apify.com/nexgendata/sec-xbrl-financial-frames?fpr=2ayu9b) — Track XBRL financial-statement frames from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Japan bitFlyer & Coincheck Crypto — 暗号資産 API](https://apify.com/nexgendata/japan-bitflyer-coincheck-crypto-tickers?fpr=2ayu9b) — Track Japan bitFlyer and Coincheck crypto tickers. `@nexgendata`
+- [Korea KIPO Patents & Trademarks — 특허 검색 API](https://apify.com/nexgendata/korea-kipo-kipris-plus-patents-trademarks?fpr=2ayu9b) — Search Korea KIPO patents and trademarks via KIPRIS. Clean JSON for analysts, quants and AI agents. `@nexgendata`
+- [SEC Reg A+ Crowdfunding Tracker — Form 1-A Offerings](https://apify.com/nexgendata/sec-reg-a-plus-crowdfunding-offerings-tracker?fpr=2ayu9b) — Track Reg A+ crowdfunding (Form 1-A) offerings from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [SEC Fund Holdings Monitor — N-PORT Filing Tracker API](https://apify.com/nexgendata/sec-form-nport-p-mutual-fund-holdings?fpr=2ayu9b) — MONITOR recent SEC N-PORT fund-holdings filings by keyword + date window — discovery-first, for when you don't yet know which fund. `@nexgendata`
+- [EU MAR Insider Transactions Tracker (IT+NL+ES+BE)](https://apify.com/nexgendata/eu-mar-insider-transactions-tracker?fpr=2ayu9b) — Pan-European insider transactions feed across four National Competent Authorities (Italy CONSOB, Netherlands AFM, Spain CNMV, Belgium FSMA) in one normalized sc `@nexgendata`
+- [SEC Form NT Tracker — Late Filing (NT 10-K/10-Q)](https://apify.com/nexgendata/sec-form-nt-late-filing-tracker?fpr=2ayu9b) — Track Form NT late-filing notifications from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [SEC Form 11-K Tracker — Employee Stock Plan Filings](https://apify.com/nexgendata/sec-form-11-k-employee-stock-plan-tracker?fpr=2ayu9b) — Track Form 11-K employee stock-plan filings from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [SEC 8-K Search with Full Filing Text — by Item, Ticker, Keyword](https://apify.com/nexgendata/sec-edgar-8k-filings?fpr=2ayu9b) — SEC 8-K search: find material-event filings by keyword, ticker, 8-K item number (e.g. `@nexgendata`
+- [News to Markdown — RAG-Ready News Chunks API](https://apify.com/nexgendata/news-announcements-rag-markdown?fpr=2ayu9b) — Convert news and announcements into RAG-ready Markdown chunks. `@nexgendata`
+- [APAC Disclosure Monitor — Pan-Asia Regulatory Filings API](https://apify.com/nexgendata/apac-disclosure-monitor?fpr=2ayu9b) — Monitor Asia-Pacific disclosures across 10+ markets in one call — clean JSON for analysts and AI agents. `@nexgendata`
+- [Contractor License Leads — Licensed US Contractor Prospects API](https://apify.com/nexgendata/contractor-license-leads?fpr=2ayu9b) — Licensed US contractor leads — name, phone, specialty/trade and license status. `@nexgendata`
+- [FEC Campaign Finance Records — Contributions API](https://apify.com/nexgendata/fec-campaign-finance-intelligence?fpr=2ayu9b) — Search US federal campaign contributions from the official FEC (openFEC) database by donor, employer, state, or recipient committee — with amounts, dates, and o `@nexgendata`
+- [US Legislation & Bill Tracker — Congress Data API](https://apify.com/nexgendata/us-legislation-bill-tracker?fpr=2ayu9b) — Track US federal legislation from official Congress data — bills by topic, keyword, sponsor, or status, with sponsor party/state, timeline, and enacted-law numb `@nexgendata`
+- [Nonprofit Records — IRS 990 Financials API](https://apify.com/nexgendata/nonprofit-irs-990-intelligence?fpr=2ayu9b) — Search US nonprofits and pull their IRS Form 990 financials — revenue, expenses, assets, net assets — by topic, state, or EIN. `@nexgendata`
+- [USPTO, EUIPO & WIPO Trademark/Patent API — No API Key](https://apify.com/nexgendata/trademark-patent-search-api?fpr=2ayu9b) — Global trademark & patent search across the official registries, in one API. `@nexgendata`
+- [Crypto Token & DEX Intelligence — Price & Liquidity](https://apify.com/nexgendata/crypto-token-dex-intelligence?fpr=2ayu9b) — Live multi-chain crypto token and DEX-pair data from Dexscreener — price, liquidity, 24h volume, market cap, plus newest and trending tokens. `@nexgendata`
+- [SEC Form D Tracker — New Startup Raise Alerts API](https://apify.com/nexgendata/sec-form-d-tracker?fpr=2ayu9b) — Monitor new SEC Form D raises with server-side filters. `@nexgendata`
+- [NHTSA Recall & Defect Investigation Tracker API](https://apify.com/nexgendata/nhtsa-vehicle-recall-defect-tracker?fpr=2ayu9b) — VIN-range + investigation-stage + severity-classified feed of NHTSA vehicle recalls. `@nexgendata`
+- [SEC Form 144 Tracker — Restricted Stock Sale Filings](https://apify.com/nexgendata/sec-form-144-restricted-stock-sales-tracker?fpr=2ayu9b) — Track Form 144 restricted-stock sale notices from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Korea KIND Disclosures — 상장공시 API](https://apify.com/nexgendata/korea-kind-disclosures?fpr=2ayu9b) — Track Korea KIND listed-company disclosures from KRX. `@nexgendata`
+- [SEC Litigation Releases Tracker — Enforcement API](https://apify.com/nexgendata/sec-litigation-releases?fpr=2ayu9b) — Track SEC enforcement litigation releases from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Korea BOK Monetary Policy — 한국은행 거시 API](https://apify.com/nexgendata/korea-bok-monetary-policy-ecos?fpr=2ayu9b) — Track Korea BOK monetary policy and macro data from ECOS. Clean JSON for analysts, quants and AI agents. `@nexgendata`
+- [Korea KRX Short Selling — 공매도 API](https://apify.com/nexgendata/korea-krx-short-selling-balances?fpr=2ayu9b) — Track Korea KRX short-selling balances by stock. `@nexgendata`
+- [Korea Upbit & Bithumb Crypto — 김치프리미엄 API](https://apify.com/nexgendata/korea-upbit-bithumb-crypto-tickers?fpr=2ayu9b) — Track Korea Upbit and Bithumb crypto tickers and the kimchi premium. `@nexgendata`
+- [Japan BOJ Macro & JGB Auctions — 日銀 金融政策 API](https://apify.com/nexgendata/japan-boj-macro-rates-jgb-auctions?fpr=2ayu9b) — Track Japan BOJ policy rates and JGB auction results. `@nexgendata`
+- [Japan MOF FX Intervention — 為替介入 API](https://apify.com/nexgendata/japan-mof-fx-intervention-tracker?fpr=2ayu9b) — Track Japan MOF foreign-exchange intervention records. `@nexgendata`
+- [Korea IPO Pipeline Tracker — 공모주 API](https://apify.com/nexgendata/korea-ipo-pipeline-tracker?fpr=2ayu9b) — Track the Korea IPO pipeline and upcoming new listings. Clean JSON for analysts, quants and AI agents. `@nexgendata`
+- [Global Central-Bank Policy Rates (BIS)](https://apify.com/nexgendata/global-central-bank-policy-rates?fpr=2ayu9b) — Global central-bank policy rates for 40+ countries from the BIS (WS_CBPOL): current and historical policy rate by country and period. `@nexgendata`
+- [Japan EDINET Insider Filings — インサイダー取引 API](https://apify.com/nexgendata/japan-edinet-insider-filings?fpr=2ayu9b) — Track Japan EDINET insider and large-shareholder filings. `@nexgendata`
+- [HKEX IPO Calendar — 港股新股 API](https://apify.com/nexgendata/hkex-ipo-calendar?fpr=2ayu9b) — Track the Hong Kong HKEX IPO pipeline and new listings. `@nexgendata`
+- [HKEX Insider & Short Tracker — 內幕權益 API](https://apify.com/nexgendata/hkex-insider-short-tracker?fpr=2ayu9b) — Track Hong Kong HKEX insider dealings and short positions. `@nexgendata`
+- [China A-Share Insider Trades — 高管持股变动 API](https://apify.com/nexgendata/china-ashare-insider-trades?fpr=2ayu9b) — Track China A-share insider and major-holder share changes. `@nexgendata`
+- [SEC Filings to Markdown — RAG-Ready Chunks API](https://apify.com/nexgendata/sec-filings-rag-markdown?fpr=2ayu9b) — Track SEC filings converted to clean Markdown chunks from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [PSE Philippines Stock Screener — PSEi Data API](https://apify.com/nexgendata/pse-philippines-stock-screener?fpr=2ayu9b) — Screen PSEi stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [Earnings Calendar — Upcoming Report Dates API](https://apify.com/nexgendata/earnings-calendar?fpr=2ayu9b) — Track upcoming earnings report dates from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Insider Buying Screener — Form 4 Trades by Role, Size & Ticker](https://apify.com/nexgendata/sec-form4-insider-tracker?fpr=2ayu9b) — Insider buying screener over recent SEC Form 4 filings: open-market buys or sells, filter by insider role (CEO, CFO, director), minimum dollar value, ticker and `@nexgendata`
+- [Chinese ADRs Stock Screener — US Market Data API](https://apify.com/nexgendata/chinese-adrs-stock-screener?fpr=2ayu9b) — Screen US-listed Chinese ADRs stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [ChiNext China Stock Screener — 创业板 A股 API](https://apify.com/nexgendata/chinext-china-stock-screener?fpr=2ayu9b) — Screen ChiNext stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [Bursa Malaysia Stock Screener — KLCI Data API](https://apify.com/nexgendata/bursa-malaysia-stock-screener?fpr=2ayu9b) — Screen FTSE Bursa Malaysia KLCI stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. Malaysia fundamentals for analysts and AI agents. `@nexgendata`
+- [LSE UK Stock Screener — FTSE 100 & 250 Data API](https://apify.com/nexgendata/lse-uk-stock-screener?fpr=2ayu9b) — Screen FTSE 100 & 250 stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. `@nexgendata`
+- [SGX Singapore Stock Screener — STI Data API](https://apify.com/nexgendata/sgx-singapore-stock-screener?fpr=2ayu9b) — Screen Straits Times Index (STI) stocks by market cap, P/E, dividend yield and more — clean JSON, no data-vendor contract. Singapore fundamentals for analysts and AI agents. `@nexgendata`
+- [Crypto Top 100 Screener — Market Cap & Price API](https://apify.com/nexgendata/crypto-top100-screener?fpr=2ayu9b) — Screen the top 100 cryptocurrencies by market cap, price, supply and multi-window % change — clean JSON for analysts and AI agents. `@nexgendata`
+- [US Treasury Yields & Bond Data — Curve API](https://apify.com/nexgendata/treasury-yields-bonds?fpr=2ayu9b) — Track US Treasury yield curve from 1M to 30Y — daily yields, spreads, 2s10s curve inversion, historical changes. `@nexgendata`
+- [SEC Insider Cluster Detector — Coordinated Form 4 Buys](https://apify.com/nexgendata/insider-cluster-detector?fpr=2ayu9b) — Track clustered insider buying and selling from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Earnings Estimate Revisions Tracker — EPS Changes API](https://apify.com/nexgendata/earnings-estimate-revisions?fpr=2ayu9b) — Track analyst EPS estimate revisions from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [SEC 13F Holdings Delta Tracker — Quarter-Over-Quarter](https://apify.com/nexgendata/13f-holdings-delta-tracker?fpr=2ayu9b) — Track quarter-over-quarter 13F holdings changes from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Reg SHO Threshold Securities Tracker — Daily List](https://apify.com/nexgendata/reg-sho-threshold-securities?fpr=2ayu9b) — Track Reg SHO threshold-securities list from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Singapore SGX IPO Calendar — Listings & Pricing API](https://apify.com/nexgendata/sg-sgx-ipo-calendar?fpr=2ayu9b) — Track SGX IPO listings, pricing and post-listing performance. `@nexgendata`
+- [SPAC Tracker — De-SPAC Deals & Trust Data API](https://apify.com/nexgendata/spac-tracker?fpr=2ayu9b) — Track SPACs, trust data and de-SPAC deals from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [SEC Foreign Issuer Monitor — 20-F & 6-K Filings](https://apify.com/nexgendata/sec-foreign-issuer-monitor?fpr=2ayu9b) — Track foreign private issuer filings (20-F / 6-K) from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [China A-Share Earnings Calendar — 财报日历 API](https://apify.com/nexgendata/a-share-earnings-calendar?fpr=2ayu9b) — Track the China A-share earnings report calendar and schedule. `@nexgendata`
+- [China A-Share Financials — 财务数据 API](https://apify.com/nexgendata/china-a-share-financials?fpr=2ayu9b) — Track China A-share company financials — EPS, margins, profit growth. `@nexgendata`
+- [SEC Exec Comp Tracker — DEF 14A Pay Disclosures](https://apify.com/nexgendata/sec-exec-comp-proxy-tracker?fpr=2ayu9b) — Track executive-compensation (DEF 14A) disclosures from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Insurance Agent License Leads — Producer Directory API](https://apify.com/nexgendata/insurance-agent-license-leads?fpr=2ayu9b) — Filterable prospect lists of licensed insurance producers — agents, adjusters, agencies — from official state-department open data (Texas live). `@nexgendata`
+- [Private Funding Intelligence — Form D Raises API](https://apify.com/nexgendata/private-funding-form-d-intelligence?fpr=2ayu9b) — Track private-market funding rounds from SEC Form D filings. `@nexgendata`
 
 ## News & Content
 
@@ -521,6 +617,12 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Indonews Aggregator](https://apify.com/nadpra/indonews?fpr=2ayu9b) — Automatically crawls, enriches, and summarizes news articles (artikel berita) from major Indonesian media outlets: Detik, Kompas. `@nadpra`
 - [News Article Scraper for Feeding LLM](https://apify.com/proscraper/newsarticlescraper?fpr=2ayu9b) — Scrape news articles metadata to feed into LLM models. `@proscraper`
 - [Pump.fun New Listings Scraper](https://apify.com/harvest/pump-fun-new-listings-scraper?fpr=2ayu9b) — Extract details about new coin listings from Pump.fun, enabling you to monitor the latest additions with. `@harvest`
+- [Earnings Release Intelligence — SEC 8-K Guidance & Risk Signals](https://apify.com/nexgendata/earnings-transcripts?fpr=2ayu9b) — Earnings-release intelligence from SEC EDGAR 8-K Item 2.02 filings — results summary, guidance and risk-language signals, source-linked JSON for analysts, funds `@nexgendata`
+- [FCC ULS Wireless Licensing & Spectrum Tracker API](https://apify.com/nexgendata/fcc-uls-wireless-licensing-spectrum-tracker?fpr=2ayu9b) — Daily FCC Universal Licensing System feed: new licenses, renewals, cancellations, modifications across wireless services with service-class normalization, FRN + `@nexgendata`
+- [Naver Trends News — Korea News Monitoring API](https://apify.com/nexgendata/naver-trends-news?fpr=2ayu9b) — Monitor Naver (Korea) news trends and headlines. `@nexgendata`
+- [PR Newswire Asia Press Releases — Media API](https://apify.com/nexgendata/pr-newswire-asia-press-releases-scraper?fpr=2ayu9b) — Monitor PR Newswire Asia press releases. `@nexgendata`
+- [Business Wire Press Releases Scraper — Media API](https://apify.com/nexgendata/business-wire-press-releases-scraper?fpr=2ayu9b) — Monitor Business Wire press releases for media intelligence. `@nexgendata`
+- [PR TIMES Scraper — Japan Press Releases · プレスリリース API](https://apify.com/nexgendata/prtimes-japan-press-releases?fpr=2ayu9b) — Japan's dominant press-release wire — monitor PR TIMES releases by company or keyword. `@nexgendata`
 
 ## Developer Tools
 
@@ -560,6 +662,9 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Trustpilot $0.75 Bypass 200 Limit  [Company & Transparency]](https://apify.com/memo23/trustpilot-scraper-ppe?fpr=2ayu9b) — $0.75 per 1,000 results – No limits, unlimited extraction. *Pay per event* `@memo23`
 - [G2.com Real-Time Reviews Scraper (2026)](https://apify.com/zen-studio/g2-reviews-scraper?fpr=2ayu9b) — Extract G2.com product reviews in real-time. *Pay per event* `@zen-studio`
 - [App Store Reviews Scraper](https://apify.com/easyapi/app-store-reviews-scraper?fpr=2ayu9b) — App Store Reviews Scraper is a valuable tool for collecting and analyzing user reviews from the. `@easyapi`
+- [Review Intelligence to Notion — Cross-Platform Review Feed API](https://apify.com/nexgendata/review-intelligence-notion?fpr=2ayu9b) — Aggregate public reviews for a brand across platforms, score them and push a brand-level review digest (rating distribution, complaint and praise themes, recent `@nexgendata`
+- [Google Maps Review Monitoring — Google Reviews Scraper](https://apify.com/nexgendata/google-maps-reviews?fpr=2ayu9b) — Google Maps review monitoring: reviewer, star rating, text, date, owner replies and likes for any place URL, name or search. `@nexgendata`
+- [Google Play Reviews Scraper — App Reviews API](https://apify.com/nexgendata/google-play-reviews-scraper?fpr=2ayu9b) — Scrape Google Play (Android) app reviews — star rating, text, date, dev replies and sentiment — by app ID or Play Store URL. `@nexgendata`
 
 ## Government & Public Data
 
@@ -573,6 +678,42 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [SAM.gov Scraper - Contracts, Exclusions & Grants](https://apify.com/jungle_synthesizer/samgov-scraper?fpr=2ayu9b) — Scrape SAM.gov for federal contract opportunities, exclusion records (debarment list), wage determinations, and assistance listings. *Pay per event* `@jungle_synthesizer`
 - [SAM.gov Federal Contracts Scraper](https://apify.com/fortuitous_pirate/sam-gov-scraper?fpr=2ayu9b) — Search federal contract opportunities on SAM.gov. `@fortuitous_pirate`
 - [Patent Trademark Search](https://apify.com/hanamira/patent-trademark-search?fpr=2ayu9b) — Search patents and trademarks by keyword, company, or inventor. *Pay per event* `@hanamira`
+- [Singapore MAS Enforcement Actions — Regulatory API](https://apify.com/nexgendata/singapore-mas-enforcement?fpr=2ayu9b) — Track Singapore MAS enforcement actions and penalties (public records). `@nexgendata`
+- [Financial Adviser Directory — BrokerCheck & IAPD Records API](https://apify.com/nexgendata/finra-adviser-movement-tracker?fpr=2ayu9b) — Search public FINRA BrokerCheck & SEC IAPD registers — adviser names, CRD, firm, state, registration status. `@nexgendata`
+- [UK FCA Enforcement Register — Final Penalties API](https://apify.com/nexgendata/uk-fca-enforcement-register?fpr=2ayu9b) — UK Financial Conduct Authority enforcement disclosures: Final Notices, Decision Notices, Supervisory Notices, Warning Notices, fines (GBP), prohibitions, multi- `@nexgendata`
+- [US Court Oral Argument Recordings Index API](https://apify.com/nexgendata/courtlistener-oral-arguments?fpr=2ayu9b) — Search 100,000+ US appellate court oral-argument recordings (CourtListener): case name, court, date argued, judges, panel, and audio download links. `@nexgendata`
+- [RECAP PACER Federal Docket Search API](https://apify.com/nexgendata/recap-pacer-docket-search?fpr=2ayu9b) — Litigation due diligence: search the free RECAP archive of PACER federal-court dockets (CourtListener) — case name, court, dates, cause, nature of suit. `@nexgendata`
+- [Japan FSA/SESC Enforcement — 証券監視委 API](https://apify.com/nexgendata/japan-fsa-sesc-enforcement-notices?fpr=2ayu9b) — Track Japan FSA and SESC enforcement notices (public records). Clean JSON for analysts, quants and AI agents. `@nexgendata`
+- [FAA Airworthiness Directives + NASA ASRS Safety API](https://apify.com/nexgendata/faa-airworthiness-directives-nasa-asrs-aviation-safety?fpr=2ayu9b) — Joined feed of FAA Airworthiness Directives (Federal Register / DRS) and NASA ASRS aviation-safety reports per aircraft make + model. `@nexgendata`
+- [FDA Adverse Events — FAERS & MAUDE Records API](https://apify.com/nexgendata/fda-adverse-events-faers-maude?fpr=2ayu9b) — Adverse-event feed from openFDA FAERS (drugs) + MAUDE (devices): source-linked reports with seriousness flags, MedDRA Preferred Terms, and a PRR screening score `@nexgendata`
+- [CMS Open Payments Pro — Sunshine Act + NPI API](https://apify.com/nexgendata/cms-open-payments-physician-intelligence-pro?fpr=2ayu9b) — Sunshine Act pharma-to-physician payments enriched with NPI Registry specialty + practice address. `@nexgendata`
+- [FINMA + MAS + SFC Enforcement Records API](https://apify.com/nexgendata/finma-mas-sfc-enforcement-tracker?fpr=2ayu9b) — Unified feed of FINMA (Switzerland) + MAS (Singapore) + SFC (Hong Kong) enforcement actions. `@nexgendata`
+- [CFPB HMDA Mortgage Lending Records API](https://apify.com/nexgendata/cfpb-hmda-mortgage-lender-disparity-tracker?fpr=2ayu9b) — MSA / race / income-tier approval & denial aggregates for any HMDA-reporting lender, with disparity ratios vs the lender's portfolio pre-computed. `@nexgendata`
+- [CDC WONDER & FluView — Public Health Data API](https://apify.com/nexgendata/cdc-wonder-fluview-public-health-surveillance?fpr=2ayu9b) — Weekly hospitalizations + deaths for influenza, COVID-19, and RSV by US state and age group, normalized against the 5-year MMWR-week seasonal baseline. `@nexgendata`
+- [Taiwan FSC Enforcement — 金管會裁罰 API](https://apify.com/nexgendata/taiwan-fsc-sfb-enforcement-notices?fpr=2ayu9b) — Track Taiwan FSC/SFB enforcement notices (public records). Clean JSON for analysts and AI agents. `@nexgendata`
+- [Taiwan Gov Procurement — 政府採購 API](https://apify.com/nexgendata/taiwan-pcc-public-procurement-tenders-awards?fpr=2ayu9b) — Track Taiwan government procurement tenders and awards. `@nexgendata`
+- [FTC Consumer Protection Cases — Records API](https://apify.com/nexgendata/ftc-consumer-protection-cases?fpr=2ayu9b) — Tracks FTC cases and proceedings — consumer protection enforcement, antitrust, deceptive advertising, data security, and robocall cases. `@nexgendata`
+- [Regulatory Enforcement to Markdown — RAG Data API](https://apify.com/nexgendata/regulatory-enforcement-rag?fpr=2ayu9b) — Convert regulatory enforcement actions, litigation releases & sanctions notices (SEC, FCA, ASIC, MAS, etc.) into clean, chunked Markdown for RAG and compliance `@nexgendata`
+- [US Federal Contract Spending Intelligence API](https://apify.com/nexgendata/federal-contract-spending-intelligence?fpr=2ayu9b) — Analyze US federal contract spending by agency and recipient. `@nexgendata`
+- [US Auto Dealer & Repair Shop Leads API](https://apify.com/nexgendata/us-auto-dealer-repair-leads?fpr=2ayu9b) — US auto dealer & repair-shop leads — business name, address, phone and type. `@nexgendata`
+- [Medical Device Records — FDA 510(k) & PMA API](https://apify.com/nexgendata/medical-device-fda-intelligence?fpr=2ayu9b) — Track FDA medical device 510(k) clearances and recalls from official openFDA data: applicant, device, product code, class, decision date, and Class I/II/III rec `@nexgendata`
+- [UN Sanctions Consolidated List Tracker API](https://apify.com/nexgendata/un-sanctions-consolidated-tracker?fpr=2ayu9b) — Track the UN Security Council consolidated sanctions list. `@nexgendata`
+- [OFAC SDN Watchlist Scraper — Sanctions Data API](https://apify.com/nexgendata/ofac-sdn-watchlist-scraper?fpr=2ayu9b) — Scrape the US Treasury OFAC SDN list. `@nexgendata`
+- [EU Consolidated Sanctions List Tracker API](https://apify.com/nexgendata/eu-consolidated-sanctions-tracker?fpr=2ayu9b) — Track the EU Financial Sanctions Database consolidated list. `@nexgendata`
+- [UK HMT Financial Sanctions List Tracker API](https://apify.com/nexgendata/uk-hmt-financial-sanctions-tracker?fpr=2ayu9b) — Track the UK HM Treasury OFSI consolidated financial sanctions list. `@nexgendata`
+- [CFTC Enforcement Actions Tracker — Case Records API](https://apify.com/nexgendata/cftc-enforcement-actions?fpr=2ayu9b) — Live feed of CFTC press releases, enforcement actions, settled orders, civil penalties, and regulatory proceedings from cftc.gov. `@nexgendata`
+- [FDA Warning Letters & 483 Inspections API](https://apify.com/nexgendata/fda-warning-letters-483-inspections?fpr=2ayu9b) — Joined feed of FDA Warning Letters + Form 483 inspection observations — facility-level severity-scored via FEI join. `@nexgendata`
+- [SAM.gov Contractor Exclusions — Debarment Records API](https://apify.com/nexgendata/sam-gov-federal-contractor-exclusions?fpr=2ayu9b) — Track US SAM.gov federal contractor exclusions and debarments (public records). `@nexgendata`
+- [Korea FSS Enforcement — 금감원 제재 API](https://apify.com/nexgendata/korea-fss-english-enforcement?fpr=2ayu9b) — Track Korea FSS enforcement actions and penalties (public records). Clean JSON for analysts, quants and AI agents. `@nexgendata`
+- [HK SFC Enforcement — 證監會執法 API](https://apify.com/nexgendata/hk-sfc-enforcement-tracker?fpr=2ayu9b) — Track Hong Kong SFC enforcement actions (public records). `@nexgendata`
+- [Federal Reserve Bank Enforcement Actions API](https://apify.com/nexgendata/fed-bank-enforcement-actions?fpr=2ayu9b) — Federal Reserve enforcement actions: consent orders, civil money penalties, cease-and-desist against banks and individuals, with effective/termination dates. For bank compliance, AML/BSA, fintech legal. `@nexgendata`
+- [CMS Nursing Home Compare — Provider Records API](https://apify.com/nexgendata/cms-nursing-home-compare?fpr=2ayu9b) — CMS Nursing Home Compare data: 14,000+ Medicare/Medicaid nursing homes with provider, location, ownership, and quality ratings. `@nexgendata`
+- [FDA Drug Approvals Tracker — NDA/BLA/ANDA API](https://apify.com/nexgendata/fda-drug-approvals?fpr=2ayu9b) — Track FDA drug approvals via openFDA — NDA / BLA / ANDA / supplements with priority review, breakthrough, accelerated approval, orphan drug, fast track flags. `@nexgendata`
+- [US Federal & State Judges Database API](https://apify.com/nexgendata/courtlistener-federal-judges?fpr=2ayu9b) — Search US federal & state judges (CourtListener): biography, court positions/appointments, education, ABA ratings, political affiliation. `@nexgendata`
+- [Federal Litigation Records — PACER/RECAP Data API](https://apify.com/nexgendata/federal-litigation-intelligence?fpr=2ayu9b) — Track new US federal court litigation by topic, court, company, or law firm from the official CourtListener/RECAP (PACER) database. `@nexgendata`
+- [FDA Pharma Pipeline Tracker — Milestone Data API](https://apify.com/nexgendata/fda-pharma-catalyst-pipeline?fpr=2ayu9b) — Track biotech catalysts: clinical-trial readouts, FDA drug approvals, and recalls in one feed from official ClinicalTrials.gov + openFDA data. `@nexgendata`
+- [NHTSA Vehicle Safety — Recalls & Complaints API](https://apify.com/nexgendata/nhtsa-vehicle-safety-intelligence?fpr=2ayu9b) — Pull the full safety history of any US vehicle — NHTSA recalls and owner complaints (crashes, fires, injuries, deaths) — by make, model, and year. For lemon-law attorneys, auto insurers, dealers, and researchers. `@nexgendata`
+- [Sanctions Delta Monitor — OFAC/UK/UN/EU Feed API](https://apify.com/nexgendata/sanctions-watchlist-delta-monitor?fpr=2ayu9b) — Monitor OFAC, UK OFSI & UN Security Council sanctions lists and get only the changes since the last run — new, removed and modified entities. For compliance, KYC/AML screening and watchlist change detection. `@nexgendata`
 
 ## Marketing & Ads
 
@@ -612,6 +753,36 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [FTC Enforcement Actions Scraper — Case Records API](https://apify.com/nexgendata/ftc-enforcement-actions-scraper?fpr=2ayu9b) — Scrape FTC Cases & Proceedings — case title, status, matter number, docket, federal court, filing date. `@nexgendata`
 - [India RBI Monetary Policy — MPC Statements API](https://apify.com/nexgendata/india-rbi-monetary-policy-statements?fpr=2ayu9b) — Structured feed for every RBI MPC Monetary Policy Statement: repo rate, SDF/MSF/CRR/SLR, policy stance, vote breakdown. *Free* `@nexgendata`
 - [Australia ASIC Form 605 — Substantial Holdings API](https://apify.com/nexgendata/australia-asic-form-605-substantial-holdings?fpr=2ayu9b) — Track every ASX Form 603/604/605 substantial-holder filing under Corporations Act s671B. *Free* `@nexgendata`
+- [Google Patents Scraper — Global Prior-Art Search API](https://apify.com/nexgendata/google-patents-search?fpr=2ayu9b) — Search patents worldwide by keyword, assignee, CPC or date. `@nexgendata`
+- [USPTO Patent Grant Search — Bulk by Keyword, Assignee & CPC](https://apify.com/nexgendata/uspto-patent-grants?fpr=2ayu9b) — USPTO patent grant search: pull granted US patents in bulk by keyword, assignee, grant-date range or CPC class, with an AI/ML and software flag on each. `@nexgendata`
+- [China Tech & Startup News — 科技创投 API](https://apify.com/nexgendata/china-tech-startup-news?fpr=2ayu9b) — Track China tech and startup news coverage. `@nexgendata`
+- [USPTO Patent Grant Alerts — New Grants Since Your Last Run](https://apify.com/nexgendata/uspto-patent-grants-tracker?fpr=2ayu9b) — USPTO patent grant alerts: watch a keyword, assignee or CPC class and, on each scheduled run, get only the patents granted since the grants you already received `@nexgendata`
+- [VC Portfolio Change Monitor — What Changed Since Last Run](https://apify.com/nexgendata/vc-portfolio-page-monitor?fpr=2ayu9b) — Monitors VC firm portfolio pages and returns what changed since the last run — companies added, removed, or edited — for a16z, Sequoia, Founders Fund, Greylock, `@nexgendata`
+- [Patent & Trademark RAG — IP Docs to Markdown API](https://apify.com/nexgendata/patent-trademark-rag?fpr=2ayu9b) — Convert patent and trademark documents into RAG-ready Markdown chunks. `@nexgendata`
+- [Federal Grant Search — Grants.gov Funding Opportunities](https://apify.com/nexgendata/federal-grant-opportunities?fpr=2ayu9b) — Federal grant search across Grants.gov: open and forecasted US funding opportunities by keyword, agency and status — number, agency, open/close dates, CFDA and `@nexgendata`
+- [Company Financial Fundamentals — SEC XBRL Metrics API](https://apify.com/nexgendata/company-financial-fundamentals-sec?fpr=2ayu9b) — Track company financial fundamentals from SEC XBRL from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Bessemer Portfolio Scraper — VC Portfolio API](https://apify.com/nexgendata/bessemer-portfolio-scraper?fpr=2ayu9b) — Scrape the Bessemer Venture Partners portfolio companies. `@nexgendata`
+- [Founders Fund Portfolio Scraper — Portfolio API](https://apify.com/nexgendata/founders-fund-portfolio-scraper?fpr=2ayu9b) — Scrape the Founders Fund portfolio companies. `@nexgendata`
+- [Greylock Portfolio Scraper — VC Portfolio API](https://apify.com/nexgendata/greylock-portfolio-scraper?fpr=2ayu9b) — Scrape the Greylock Partners portfolio companies. `@nexgendata`
+- [Lightspeed Portfolio Scraper — VC Portfolio API](https://apify.com/nexgendata/lightspeed-portfolio-scraper?fpr=2ayu9b) — Scrape the Lightspeed Venture Partners portfolio companies. `@nexgendata`
+- [Companies Hiring Now — Hiring Signals Scorecard (+ Notion)](https://apify.com/nexgendata/hiring-signals-notion?fpr=2ayu9b) — Companies hiring now: feed it companies and get a hiring signals scorecard — who is hiring, which teams are growing and momentum — so sales and recruiting reach `@nexgendata`
+- [Company SERP Snapshot Monitor](https://apify.com/nexgendata/company-serp-snapshot-monitor?fpr=2ayu9b) — Capture and monitor search-engine results for any query — track how a brand, product, or keyword ranks over time. `@nexgendata`
+- [Patent Inventor Network — Google Patents Index](https://apify.com/nexgendata/patentsview-inventor-network-graph?fpr=2ayu9b) — Map inventor and co-inventor networks by company and topic, built from the Google Patents index. `@nexgendata`
+- [GLEIF LEI Entity Resolution — Reference Data API](https://apify.com/nexgendata/gleif-lei-entity-resolution?fpr=2ayu9b) — Resolve company names, addresses, or LEIs to official GLEIF Legal Entity Identifiers with corporate hierarchy traversal (parent + child LEIs), jurisdiction filt `@nexgendata`
+- [Taiwan MOEA Company Registry — 公司登記 API](https://apify.com/nexgendata/taiwan-moea-company-registry?fpr=2ayu9b) — Search the Taiwan MOEA company registration registry. `@nexgendata`
+- [HK Trademark Search — 商標檢索 API](https://apify.com/nexgendata/hk-trademark-search?fpr=2ayu9b) — No live data at present: the HK IPD trademark register blocks automated access and the old curated sample was withdrawn. `@nexgendata`
+- [UK PSC Tracker — Beneficial Ownership Records API](https://apify.com/nexgendata/uk-psc-beneficial-ownership?fpr=2ayu9b) — Pull UK Companies House Persons with Significant Control (PSC) — beneficial owners, parent entities, trusts. `@nexgendata`
+- [Index Ventures Portfolio Scraper — VC API](https://apify.com/nexgendata/index-ventures-portfolio-scraper?fpr=2ayu9b) — Scrape the Index Ventures portfolio companies. `@nexgendata`
+- [New York Corporations Search — NY Entity Data API](https://apify.com/nexgendata/new-york-corporations-search-scraper?fpr=2ayu9b) — Search the NY Dept of State Division of Corporations registry (4.2M+ entities). `@nexgendata`
+- [Texas Franchise Tax Permit Holders — TX Taxpayer Search](https://apify.com/nexgendata/texas-franchise-tax-registry?fpr=2ayu9b) — Search the Texas Comptroller Active Franchise Taxpayers register (3.4M+ permit holders). `@nexgendata`
+- [China Listed Company Announcements — 公告 API](https://apify.com/nexgendata/china-listed-company-announcements?fpr=2ayu9b) — Monitor China listed-company disclosures and announcements. `@nexgendata`
+- [CPSC Product Recalls & Safety Tracker API](https://apify.com/nexgendata/cpsc-product-recalls?fpr=2ayu9b) — CPSC consumer product recalls (saferproducts.gov): recalled products, hazards, remedies, manufacturers, injuries, and dates. `@nexgendata`
+- [Corporate Actions Tracker — Splits, Dividends & More](https://apify.com/nexgendata/corporate-actions-tracker?fpr=2ayu9b) — Corporate actions announced in live SEC 8-K filings — stock splits, reverse splits, special dividends, spinoffs, mergers and tender offers — newest first, with `@nexgendata`
+- [YC Startup Search — Deal Sourcing API (Y Combinator Directory)](https://apify.com/nexgendata/angellist-startup-search?fpr=2ayu9b) — Search the Y Combinator company directory — batch, status, location, industry — for deal sourcing. `@nexgendata`
+- [SEC Form 3 Tracker — New Insider Registrations](https://apify.com/nexgendata/sec-form-3-new-insider-tracker?fpr=2ayu9b) — Track new Form 3 insider registrations from SEC EDGAR — parsed, source-linked JSON for analysts, funds and AI agents. `@nexgendata`
+- [Norway Company Registry — Brønnøysund Data API](https://apify.com/nexgendata/norway-brreg-company-registry?fpr=2ayu9b) — Look up any Norwegian company from the official Brønnøysund register — name/orgnr search, full public record: org form, industry, employees, address, status. `@nexgendata`
+- [CPSC Recalls — Consumer Product Recalls & Safety Data](https://apify.com/nexgendata/consumer-product-recall-intelligence?fpr=2ayu9b) — CPSC recalls from official Consumer Product Safety Commission data: US consumer product recalls with product, hazard, injuries, manufacturers and retailers. For marketplaces delisting recalled items, product-liability attorneys and compliance teams. `@nexgendata`
+- [Trademark Conflict Watch — Brand Monitoring API](https://apify.com/nexgendata/trademark-conflict-watch?fpr=2ayu9b) — Monitor new trademark filings for conflicts with your brand. Clean JSON for IP counsel, brand teams and AI agents. `@nexgendata`
 
 ## Automation & Workflows
 
