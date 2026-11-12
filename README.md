@@ -144,6 +144,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Google Ads Library Scraper — Competitor Ads Transparency](https://apify.com/nexgendata/google-ads-transparency-intelligence?fpr=2ayu9b) — Google ads library scraper for the Google Ads Transparency Center: every creative a competitor, brand or domain runs across Search, Display and YouTube — format `@nexgendata`
 - [Domain Security Posture Checker — DNS, SPF, DMARC, TLS](https://apify.com/nexgendata/domain-security-posture-checker?fpr=2ayu9b) — One-call security report card per domain — WHOIS, DNS, SPF/DMARC email auth, SSL/TLS expiry, with a posture score and grade. `@nexgendata`
 - [Website Rank Lookup — Majestic Million](https://apify.com/nexgendata/website-rank-lookup-majestic-million?fpr=2ayu9b) — Look up any domain's rank in the Majestic Million, the free daily top-1M list ranked by how many sites link to it. `@nexgendata`
+- [Google Trends Scraper](https://apify.com/datasmithhq/google-trends-scraper?utm_source=nexgen-awesome&utm_medium=directory&utm_campaign=2026-11) — Google Trends for any number of keywords on one comparable scale. *Pay per event* `@datasmithhq`
 
 ## Web Scraping & Crawling
 
@@ -714,6 +715,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [FDA Pharma Pipeline Tracker — Milestone Data API](https://apify.com/nexgendata/fda-pharma-catalyst-pipeline?fpr=2ayu9b) — Track biotech catalysts: clinical-trial readouts, FDA drug approvals, and recalls in one feed from official ClinicalTrials.gov + openFDA data. `@nexgendata`
 - [NHTSA Vehicle Safety — Recalls & Complaints API](https://apify.com/nexgendata/nhtsa-vehicle-safety-intelligence?fpr=2ayu9b) — Pull the full safety history of any US vehicle — NHTSA recalls and owner complaints (crashes, fires, injuries, deaths) — by make, model, and year. For lemon-law attorneys, auto insurers, dealers, and researchers. `@nexgendata`
 - [Sanctions Delta Monitor — OFAC/UK/UN/EU Feed API](https://apify.com/nexgendata/sanctions-watchlist-delta-monitor?fpr=2ayu9b) — Monitor OFAC, UK OFSI & UN Security Council sanctions lists and get only the changes since the last run — new, removed and modified entities. For compliance, KYC/AML screening and watchlist change detection. `@nexgendata`
+- [Google Patents Scraper](https://apify.com/datasmithhq/google-patents-scraper?utm_source=nexgen-awesome&utm_medium=directory&utm_campaign=2026-11) — Claims, citations and legal status for patent numbers; Google Patents pages only. *Pay per event* `@datasmithhq`
 
 ## Marketing & Ads
 
@@ -727,6 +729,7 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Google Ads Transparency Scraper](https://apify.com/alkausari_mujahid/google-ads-transparency-scraper?fpr=2ayu9b) — Designed for marketers, researchers, and business intelligence teams, this efficient tool scans a provided list of. `@alkausari_mujahid`
 - [Meta Ads Library Scraper (Pay per Event)](https://apify.com/eiv/meta-ads-library-scraper?fpr=2ayu9b) — Scrape Meta Ad Library by keyword or Facebook page URL. `@eiv`
 - [Google Ads Scraper [PPR]](https://apify.com/zadexinho/google-ads-transparency?fpr=2ayu9b) — Extract ad creatives, targeting data, and impression ranges from Google Ads Transparency Center. `@zadexinho`
+- [Google Ads Transparency Scraper](https://apify.com/datasmithhq/google-ads-transparency-scraper?utm_source=nexgen-awesome&utm_medium=directory&utm_campaign=2026-11) — Competitor Google ads by domain, with format and first/last shown dates. *Pay per event* `@datasmithhq`
 
 ## Productivity & AI
 
