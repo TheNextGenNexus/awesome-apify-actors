@@ -714,6 +714,9 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [FDA Pharma Pipeline Tracker — Milestone Data API](https://apify.com/nexgendata/fda-pharma-catalyst-pipeline?fpr=2ayu9b) — Track biotech catalysts: clinical-trial readouts, FDA drug approvals, and recalls in one feed from official ClinicalTrials.gov + openFDA data. `@nexgendata`
 - [NHTSA Vehicle Safety — Recalls & Complaints API](https://apify.com/nexgendata/nhtsa-vehicle-safety-intelligence?fpr=2ayu9b) — Pull the full safety history of any US vehicle — NHTSA recalls and owner complaints (crashes, fires, injuries, deaths) — by make, model, and year. For lemon-law attorneys, auto insurers, dealers, and researchers. `@nexgendata`
 - [Sanctions Delta Monitor — OFAC/UK/UN/EU Feed API](https://apify.com/nexgendata/sanctions-watchlist-delta-monitor?fpr=2ayu9b) — Monitor OFAC, UK OFSI & UN Security Council sanctions lists and get only the changes since the last run — new, removed and modified entities. For compliance, KYC/AML screening and watchlist change detection. `@nexgendata`
+- [EU Tenders Scraper (TED)](https://apify.com/kizukidata/eu-tenders?fpr=2ayu9b) — Newest EU public tenders from TED with deadlines; excludes award notices. *Pay per event* `@kizukidata`
+- [UK Visa Sponsor Jobs Scraper](https://apify.com/kizukidata/uk-visa-sponsor-jobs?fpr=2ayu9b) — Named employers' UK job ads, matched to the Home Office sponsor register. *Pay per event* `@kizukidata`
+- [Canada LMIA Employers Scraper](https://apify.com/kizukidata/canada-lmia-employers?fpr=2ayu9b) — Canada's quarterly positive LMIA employer approvals from ESDC, not open jobs. *Pay per event* `@kizukidata`
 
 ## Marketing & Ads
 
