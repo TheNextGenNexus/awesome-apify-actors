@@ -160,6 +160,25 @@ Maintained by [NexGenData](https://thenextgennexus.com/) — the team behind 470
 - [Ai Web Scraper - Extract Data With Ease](https://apify.com/eloquent_mountain/ai-web-scraper-extract-data-with-ease?fpr=2ayu9b) — Ai Web Scraper enables scraping for everyone, including non-techies!. `@eloquent_mountain`
 - [Deep Website Content Crawler](https://apify.com/6sigmag/deep-website-content-crawler?fpr=2ayu9b) — Scrape Failed Killer!. `@6sigmag`
 - [Similarweb Scraper](https://apify.com/radeance/similarweb-scraper?fpr=2ayu9b) — Extract website traffic, global rank, country rank, bounce rate, visit duration, and traffic sources from Similarweb. `@radeance`
+- [Ashby Jobs Scraper](https://apify.com/publicrecords/ashby-jobs-scraper) — New job postings from any Ashby job board since a date or window (24h, 7d, 30d). `@publicrecords`
+- [Calibration Ledger](https://apify.com/publicrecords/calibration-ledger) — Forecast track records (IMF, OECD, Fed, ECB SPF): forecast errors and bias by organization. `@publicrecords`
+- [Company Social Profile Finder](https://apify.com/publicrecords/company-social-profile-finder) — Company domain or name to its LinkedIn, X, YouTube, Instagram and Facebook links, with confidence scores. `@publicrecords`
+- [Etsy Search Scraper](https://apify.com/publicrecords/etsy-search-scraper) — Etsy search results by keyword: price, rating, reviews, Bestseller badge, ad flag, rank. `@publicrecords`
+- [Etsy Shop Daily Sales](https://apify.com/publicrecords/etsy-shop-velocity) — Daily, 7-day and 28-day sales for Etsy shops from each shop's public sales counter. `@publicrecords`
+- [EU TED Tenders Scraper](https://apify.com/publicrecords/eu-ted-notices-scraper) — EU procurement notices from TED: buyer, CPV, value, deadline, link. `@publicrecords`
+- [Google Ads Transparency Scraper](https://apify.com/publicrecords/google-ads-transparency-scraper) — Google ads a competitor runs, from the Ads Transparency Center, with first and last shown dates. `@publicrecords`
+- [Federal Contracts Feed (SAM.gov + Grants.gov)](https://apify.com/publicrecords/govcon-opportunity-feed) — New US federal contract and grant notices from SAM.gov and Grants.gov in one feed. `@publicrecords`
+- [Grants.gov Scraper](https://apify.com/publicrecords/grants-gov-scraper) — Open US federal grants: agency, deadline, eligibility and source link. `@publicrecords`
+- [Greenhouse Jobs Scraper](https://apify.com/publicrecords/greenhouse-jobs-scraper) — New job postings from any Greenhouse job board since a date or window. `@publicrecords`
+- [City Council Meetings Scraper (Legistar)](https://apify.com/publicrecords/legistar-meetings-scraper) — City council meetings, agenda items and documents for any Legistar city. `@publicrecords`
+- [Lever Jobs Scraper](https://apify.com/publicrecords/lever-jobs-scraper) — New job postings from any Lever job board since a date or window. `@publicrecords`
+- [Skool Community Scraper](https://apify.com/publicrecords/skool-community-growth-tracker) — Search Skool communities: members, price, rating, estimated revenue, daily growth. `@publicrecords`
+- [SmartRecruiters Jobs Scraper](https://apify.com/publicrecords/smartrecruiters-jobs-scraper) — New job postings from any SmartRecruiters careers site since a date or window. `@publicrecords`
+- [Sports Odds API](https://apify.com/publicrecords/sports-odds-api) — Live odds from 24 Kambi-powered sportsbooks (BetRivers, Unibet, Paf...) with best price per outcome. `@publicrecords`
+- [Tennis Scores API](https://apify.com/publicrecords/tennis-scores-api) — ATP and WTA match scores, results and rankings. `@publicrecords`
+- [Spotify Play Count Scraper](https://apify.com/publicrecords/spotify-play-count-scraper) — Play counts for every track on a Spotify track, album, artist or playlist link, plus monthly listeners. `@publicrecords`
+- [UK Tenders Scraper](https://apify.com/publicrecords/uk-find-a-tender-scraper) — UK government tenders from Find a Tender and Contracts Finder: buyer, value, deadline. `@publicrecords`
+- [USAspending Awards Scraper](https://apify.com/publicrecords/usaspending-awards-scraper) — US federal contract and grant awards by agency, recipient, NAICS and period. `@publicrecords`
 
 ## AI & Agents
 
